@@ -55,7 +55,7 @@ void loop(){
 
         if (leitura == 122){ // LED1_ASCII
             digitalWrite(pinLed, HIGH);
-            Serial.println("LED desligado"); //IMPRIME O TEXTO NA SERIAL
+            Serial.println("LED ligado"); //IMPRIME O TEXTO NA SERIAL
         }
     }
 }
